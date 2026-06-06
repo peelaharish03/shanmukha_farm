@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+}
+
+/* Smooth scrolling anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure all sections are properly spaced */
+section {
+  scroll-margin-top: 70px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  main {
+    min-height: calc(100vh - 60px);
+  }
+
+  section {
+    scroll-margin-top: 60px;
+  }
+}
