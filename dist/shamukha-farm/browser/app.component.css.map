@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.component.scss"],
-  "sourcesContent": ["main {\n  display: flex;\n  flex-direction: column;\n  min-height: calc(100vh - 100px);\n}\n\n/* Smooth scrolling anchor links */\nhtml {\n  scroll-behavior: smooth;\n}\n\n/* Ensure all sections are properly spaced */\nsection {\n  scroll-margin-top: 70px;\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n  main {\n    min-height: calc(100vh - 60px);\n  }\n\n  section {\n    scroll-margin-top: 60px;\n  }\n}\n"],
-  "mappings": ";AAAA;AACE,WAAA;AACA,kBAAA;AACA,cAAA,KAAA,MAAA,EAAA;;AAIF;AACE,mBAAA;;AAIF;AACE,qBAAA;;AAIF,QAAA,WAAA;AACE;AACE,gBAAA,KAAA,MAAA,EAAA;;AAGF;AACE,uBAAA;;;",
-  "names": []
-}
